@@ -1,11 +1,13 @@
 # powerbi-data-model-project
 Power BI B2B data model cleaning and restructuring using Power Query, Star Schema implementation, DAX, and Row-Level Security (RLS).
+##
 Tool: POWER BI
+##
 Date preparation and clean-up: Power Query
 Modeling Method: Star Schema
 Calculations: DAX
 
-Source Data Chanllenges:
+Source Data Challenges:
 Mismatched data types
 Mixed granularity
 Redundant fields
@@ -22,5 +24,5 @@ Solutions:
 3. Relationship Management: 
    * Re-established active `1:*` (One-to-Many) single-direction relationships from Dimensions to Facts.
    * Fixed date dimension joins by aligning data types in Power Query.
-  
+  ##
 Also created visuals based on the finished version of the data set and added Row Level Security
